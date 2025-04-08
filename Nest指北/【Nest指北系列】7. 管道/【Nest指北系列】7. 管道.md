@@ -47,11 +47,11 @@ findUserById(@Param('id', ParseIntPipe) id: number) {
 
 传入字符串 123，转换为数值 123
 
-![image.png](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/a8c6efe47ae44f878edb4a4437c8697c~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgcGx1c29uZQ==:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMTYxNDU1Mzg0Mzc3NzI3MSJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1744686872&x-orig-sign=s0GhKlflPjLaZjqav0EXcn9shIQ%3D)
+![image.png](1.webp)
 
 传入字符串 abc，转换失败报错
 
-![image.png](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/fa2a47642638488686bf36d3edd1476a~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgcGx1c29uZQ==:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMTYxNDU1Mzg0Mzc3NzI3MSJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1744686872&x-orig-sign=JSeGbi3%2FjX1iLdlbAzNmoMHWKcc%3D)
+![image.png](2.webp)
 
 ## DefaultValuePipe
 
@@ -74,7 +74,7 @@ createUser(
 
 不传入参数时，获取到默认值
 
-![image.png](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/339c1c7cc0f44057abf866f5bc282c8d~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgcGx1c29uZQ==:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMTYxNDU1Mzg0Mzc3NzI3MSJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1744686872&x-orig-sign=TqGETpvNXuRuwoauqPicxLYpZco%3D)
+![image.png](3.webp)
 
 ## ValidationPipe
 
@@ -145,7 +145,7 @@ createUser(@Body(new ValidationPipe()) body: CreateUserDto) {
 
 当传入 body 对象的属性不符合验证规则时（比如 age 属性传入一个字符串），会报错：
 
-![image.png](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/d843c24442a84850ae36bfc15a293a68~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgcGx1c29uZQ==:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMTYxNDU1Mzg0Mzc3NzI3MSJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1744686872&x-orig-sign=uZfdGLxMe52YQtcXbAVVSdzPuOM%3D)
+![image.png](4.webp)
 
 # 管道绑定方式
 

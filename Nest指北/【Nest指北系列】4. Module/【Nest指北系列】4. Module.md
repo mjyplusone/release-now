@@ -1,6 +1,6 @@
 Nest 中使用「**模块（module）**」来组织应用程序。每个应用程序至少有一个根模块，以根模块为起点组织多个功能模块，每个功能模块是对一系列关联紧密功能的封装。
 
-![image.png](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/dd336e585d8d4a1d8c1fa6d946874abb~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgcGx1c29uZQ==:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMTYxNDU1Mzg0Mzc3NzI3MSJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1744686811&x-orig-sign=dzu8NEBt4QG%2FdHEQRyhjHUGtI9s%3D)
+![image.png](1.webp)
 
 # 使用
 

@@ -81,7 +81,7 @@ export class UserModule {}
 
 6.  尝试 curl 调用测试一下 Controller 中创建的路由
 
-![image.png](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/96bc562eb1184b84bc1589a757142042~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgcGx1c29uZQ==:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMTYxNDU1Mzg0Mzc3NzI3MSJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1744686757&x-orig-sign=mrfYgnB82ruVMH677EMmrPMPNyE%3D)
+![image.png](1.webp)
 
 # 请求
 
@@ -258,7 +258,7 @@ export class CreateUserDto {
 
 3.  发送测试请求，age 字段传入 string 类型的值，可以看到接口报错并返回 age 字段类型错误的 message。
 
-![image.png](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/a67a1429ed224b999a4c4ae8622b7188~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgcGx1c29uZQ==:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMTYxNDU1Mzg0Mzc3NzI3MSJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1744686757&x-orig-sign=Z3O7jrGVxSfkNWNXRI3lUe0cGWI%3D)
+![image.png](2.webp)
 
 DTO + class-validator + ValidatePipe 进行数据验证的原理是什么呢？这个我们在后续的「**管道**」章节中再细讲。
 

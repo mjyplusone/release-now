@@ -360,7 +360,7 @@ export class AppService {
 ```
 
 如果既没有在 AppModule 中注册 UserService，又没有导出 UserService，在 AppService 中直接使用 UserService，会抛出如下异常。除非使用上述的 `@Optional` 方式注入。
-![image.png](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/255e880f71394d12a56992e4b9def8d3~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgcGx1c29uZQ==:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMTYxNDU1Mzg0Mzc3NzI3MSJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1744686780&x-orig-sign=xJNsqZfMSEUAXtizBTh2OT4xo3s%3D)
+![image.png](1.webp)
 
 # scope 定义 Provider 实例化的方式
 

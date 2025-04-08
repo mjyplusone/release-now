@@ -28,7 +28,7 @@ Nest 是一个 nodejs 服务端应用程序开发框架，它有几个特点：
 
 可以看到项目已经成功运行起来了。
 
-![image.png](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/83405d9acdd64546ae6d0e1834ad9fff~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgcGx1c29uZQ==:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMTYxNDU1Mzg0Mzc3NzI3MSJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1744686614&x-orig-sign=X5YTFEHuS54Enm19d93JL2eIt4M%3D)
+![image](1.webp)
 
 ## 项目结构与基本概念
 
@@ -115,7 +115,7 @@ export class AppService {
 
 至此，Nest 应用程序对外提供了一个 /hello 接口，返回 "hello world!"，尝试 curl 调用：
 
-![image.png](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/920b333f7da74b8ba74076bb38ffea05~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgcGx1c29uZQ==:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMTYxNDU1Mzg0Mzc3NzI3MSJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1744686614&x-orig-sign=%2FZ1Lm6xKqMtj7ZrS77VSLK4BiPM%3D)
+![image.png](2.webp)
 
 # 控制反转和依赖注入
 

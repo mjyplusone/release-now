@@ -1,6 +1,6 @@
 Nest 中的**中间件**本质上是在路由处理程序之前调用的**函数**。允许开发者对请求或响应对象进行操作。
 
-![image.png](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/35cd031e9b6749238e543f2897cce90d~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgcGx1c29uZQ==:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMTYxNDU1Mzg0Mzc3NzI3MSJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1744686832&x-orig-sign=TsvkniWJqkbEIi7IrSJS%2BJ2863U%3D)
+![image.png](1.webp)
 
 由于 Nest 底层默认使用 Express 作为 HTTP 服务器，因此 Nest 的中间件默认情况下等价于 express 的中间件。所以，我们先来了解一下 express 的中间件。
 
